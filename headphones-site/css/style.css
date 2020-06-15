@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utility */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.text-primary {
+   font-weight: bold;
+}
+
+.button {
+    background: #fff;
+    padding: 1rem 3rem;
+    border-radius: 40px;
+    color: #000;    
+    transition: 0.5s;
+}
+
+.button:hover {
+    background: #E6E6E6;
+}
+
+.header-primary {
+    padding-top: 4rem;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.primary-bg {
+    background: #fac769;
+}
+
+h3 {
+    padding: 10px 0;
+}
+
+/* Showcase Section */
+#showcase {
+    background: url('https://mobirise.com/html-templates/shop/assets/images/malte-wingen-381988-1920x1280.jpg')
+    no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ #showcase .container {
+/* Запълва целият WIDTH на min-width родител */
+    position: relative;
+    width: 100%;
+}
+
+/*#showcase .container .showcase-content {
+    border: 1px solid red;
+} */
+
+#showcase .container .showcase-content p {
+    margin-bottom: 1rem;
+}
+
+#showcase .container .showcase-content h1 {
+    font-size: 3.2rem;
+    line-height: 61.44px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+/* Learn More Section */
+#learn-more {
+    padding: 5rem 0;
+}
+
+#learn-more .container h3 {
+    font-weight: normal;
+    font-size: 30px;
+}
+
+#learn-more .container p {
+    padding-top: 2rem;
+}
+
+/* Ruller Section */
+#ruller {
+    text-align: center;
+    padding: 2rem 0;
+    color: #fff;
+}
+
+/* Featured Secton */
+#featured .container .cards {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#featured .container .cards .card-wrapper {
+    width: 348px;
+}
+
+
+
+#featured .container .cards .card-wrapper .card-img {
+    height: 14.5rem;
+    padding: 0.6rem;
+
+    /* width: 100px; */
+}
+
+#featured .container .cards .card-wrapper .card-img .type {
+    background: #fac769;
+    width: 150px;
+    text-align: center;
+    padding: 0.6rem;
+    border-radius: 30px;
+}
+
+#featured .container .cards .card-wrapper .card-box {
+    background: #fac769;
+    color: #fff;
+    padding: 1rem;
+}
+
+#featured .container .cards .card-wrapper .card-box h3 {
+    color: #000;
+}
+
+#featured .container .cards .card-wrapper .img1 {
+    background: url('../img/03.jpg')
+    no-repeat center center/cover;
+}
+
+#featured .container .cards .card-wrapper .img2 {
+    background: url('../img/04.jpg')
+    no-repeat center center/cover;
+}
+
+#featured .container .cards .card-wrapper .img3 {
+    background: url('../img/05.jpg')
+    no-repeat center center/cover;
+}
+
+/* Gallery Section */
+#gallery {
+    margin-bottom: 8rem;
+}
+
+#gallery .container .gallery-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gallery .container .gallery-wrapper .self-img {
+    width: 260px;
+    height: 173px;
+    margin: 0.5rem;
+}
+
+#gallery .container .gallery-wrapper .gallery-img-1 {
+    background: url('../img/gallery00.jpg')
+    no-repeat center center/cover;
+}
+
+#gallery .container .gallery-wrapper .gallery-img-2 {
+    background: url('../img/malte-wingen-381988-1920x1280-800x533.jpg')
+    no-repeat center center/cover;
+}
+
+#gallery .container .gallery-wrapper .gallery-img-3 {
+    background: url('../img/malte-wingen-381988-1920x1280-800x533.jpg')
+    no-repeat center center/cover;
+}
+
+#gallery .container .gallery-wrapper .gallery-img-4 {
+    background: url('../img/gallery00.jpg')
+    no-repeat center center/cover;
+}
+
+#gallery .container .gallery-wrapper .gallery-img-5 {
+    background: url('../img/malte-wingen-381988-1920x1280-800x533.jpg')
+    no-repeat center center/cover;
+}
+
+#gallery .container .gallery-wrapper .gallery-img-6 {
+    background: url('../img/gallery00.jpg')
+    no-repeat center center/cover;
+}
+
+#gallery .container .gallery-wrapper .gallery-img-7 {
+    background: url('../img/malte-wingen-381988-1920x1280-800x533.jpg')
+    no-repeat center center/cover;
+}
+
+#gallery .container .gallery-wrapper .gallery-img-8 {
+    background: url('../img/gallery00.jpg')
+    no-repeat center center/cover;
+}
+
+/* Preorder Section */
+#preorder {
+    padding: 3rem;
+}
+
+#preorder .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#preorder .container .left-text-content {
+    text-align-last: left;
+    width: 665px;
+}
+
+#preorder .container .right-button-content {
+    width: 258px;
+}
+
+#preorder .container .right-button-content .button {
+    float: right;
+}
+
+
+#preorder .container .left-text-content h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#preorder .container .left-text-content h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}

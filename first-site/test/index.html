@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.4;
+        }        
+
+        p {
+            margin: 0.75rem 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* top - bott section */
+        .top, .bott  {
+            height: 200px;
+            width: 100%;
+            background: green;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #333;
+        }
+        /* Section: cards */
+        #cards-section .container .cards {
+            justify-content: space-around;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 5rem 0;
+        }
+
+        #cards-section .container .cards .card {
+            text-align: center;
+            margin: 1.75rem;
+            /* width: 50%; */
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="top"></div>
+    <div id="cards-section">
+        <div class="container">
+            <div class="cards">
+                <div class="card">
+                    <img src="../img/pic01.jpg" alt="">
+                    <h3>Lorem ipsum 
+                        <br />
+                        dolor amet nullam</h3>
+                    <p>Morbi in sem quis dui placerat ornare. Pellentesquenisi 
+                        <br />
+                        euismod in, pharetra a, ultricies in diam sed arcu. Cras
+                        <br />
+                        consequat egestas augue vulputate.</p>
+                    <a href="#" class="btn">Click me</a>
+                </div>
+                <div class="card">
+                    <img src="../img/pic02.jpg" alt="">
+                    <h3>Lorem ipsum 
+                        <br />
+                        dolor amet nullam</h3>
+                    <p>Morbi in sem quis dui placerat ornare. Pellentesquenisi 
+                        <br />
+                        euismod in, pharetra a, ultricies in diam sed arcu. Cras
+                        <br />
+                        consequat egestas augue vulputate.</p>
+                    <a href="#" class="btn">Click me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bott"></div>
+</body>
+</html>
